@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root{
-    --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --branco: rgb(236, 236, 236);
+    --cor-de-fundo: #b481cc;
+    --fundo-senha: #e07ac7;
+    --fundo-texto: #f3a7e9;
+    --borda: #e64eb8;
+    --fonte-fofa: 'Fredoka One', cursive;
 }
 
 *{
@@ -17,11 +16,10 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--fonte-fofa);
 }
 
 .titulo-principal{
-    font-family: var(--roboto-mono);
     font-size: 32px;
 }
 
@@ -131,18 +129,18 @@ body{
 }
 .fraca{
     width: 25%;
-    background-color: #E71B32; 
+    background-color: #d663a2; 
 }
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
 .media{
-    background-color: #FAF408;
+    background-color: #ca8fdb;
     width: 50%;
 }
 .forte{
-    background-color: #00FF85;
+    background-color: #aa91d6;
     width: 100%;
 }
 
